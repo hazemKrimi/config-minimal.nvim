@@ -24,7 +24,6 @@ vim.o.autoindent = true
 
 vim.o.ignorecase = true
 vim.o.smartcase = true
-vim.o.autoindent = true
 
 -- Visual
 
@@ -50,7 +49,6 @@ vim.o.updatetime = 300
 vim.o.timeoutlen = 500
 vim.o.ttimeoutlen = 0
 vim.o.autoread = true
-vim.o.autowrite = false
 
 -- Behavior
 
@@ -58,7 +56,6 @@ vim.o.hidden = true
 vim.o.errorbells = true
 vim.o.backspace = "indent,eol,start"
 vim.o.autochdir = false
-vim.o.selection = "exclusive"
 vim.o.mouse = "a"
 vim.o.modifiable = true
 vim.o.encoding = "UTF-8"
